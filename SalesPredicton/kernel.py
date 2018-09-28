@@ -8,6 +8,12 @@
 # It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
 # For example, here's several helpful packages to load in 
 
+
+
+from numpy import loadtxt
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 import numpy as np # linear algebra
 import matplotlib.pyplot as plt
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -233,3 +239,25 @@ answer = pd.merge(test_df,last2,on=['shop_id','item_id'],how='left').fillna(0)[[
 answer.columns =  ['ID','item_cnt_month']
 answer.to_csv('csv_to_submit.csv', index = False)
 
+
+# Assuming that we have long trends, and seasonal trende we can try to add month of year as a separate factor  and use
+# and use gradient boosting tree
+# We go back and 
+sales_train_df['month'] = sales_train['date_block_num'] % 12
+test['month'] = sales_train['date_block_num'] % 12
+# There could also be quarterly years trends
+sales_train_df['quarter'] = np.floor(sales_train['month'] % 4)
+# There could also be half year trends
+sales_train_df['half'] = np.floor(sales_train['month'] % 6)
+
+x_columns=['month','quarter','half','date,date_block_num','shop_id,item_id','item_price']
+# Split the data into test and validation
+X_train = sales_train_df[x_columns].where(sales_train_df['date_block_num']<last_block)
+Y_train = sales_train_df['item_cnt_day'].where(sales_train_df['date_block_num']<last_block )
+X_test = sales_train_df[x_columns].where(sales_train_df['date_block_num']==(last_block+1))
+Y_test = sales_train_df['item_cnt_day'].where(sales_train_df['date_block_num']==(last_block+1) )
+
+#XGBoost
+model = XGBClassifier()
+model.fit(X_train, Y_train)
+predictions = mode.predict(X_test)
