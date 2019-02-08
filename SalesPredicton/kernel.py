@@ -1,6 +1,6 @@
 
 # coding: utf-8
-
+#%%
 # In[9]:
 
 
@@ -13,17 +13,37 @@
 from numpy import loadtxt
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 from sklearn.metrics import accuracy_score
 import numpy as np # linear algebra
 import matplotlib.pyplot as plt
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from datetime import date
+import time
 from datetime import datetime
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 
 import os
-print(os.listdir("../input"))
+import pickle
+import h5py
+import sys
+
+global now 
+now= time.time()
+def rt(prefix):
+    global now
+    print(prefix + " : " + str(time.time()-now) )
+    now = time.time()
+
+last_month_estimate = True
+#x_columns=['date_block_num','shop_id','item_id','item_price','days','month','quarter','half','prev_week','yesterday'] # "days"
+verbose = False
+last_block = 33
+returns_study = False
+generate_days = False
+generate_periods = True
+plotboxplot = False
 
 # Any results you write to the current directory are saved as output.
 
@@ -37,12 +57,25 @@ print(os.listdir("../input"))
 
 items_df = pd.read_csv('../input/items.csv')
 test_df = pd.read_csv('../input/test.csv')
-sales_train_df = pd.read_csv('../input/sales_train.csv')
+#sales_train_df = pd.read_csv('../input/sales_train.csv')
+sales_train_df = pd.read_csv('sales_train_with_days.csv')
+sales_train_df.drop(['date'], axis=1)
 item_categories_df = pd.read_csv('../input/item_categories.csv')
 shops_df = pd.read_csv('../input/shops.csv')
 test_df = pd.read_csv('../input/test.csv')
+rt("read files ")
+# We use this as long as we tune the algorithm
+sales_train_df = sales_train_df.loc[sales_train_df['date_block_num']<=last_block]
+#sales_train_df = sales_train_df.groupby(['shop_id','item_id','date_block_num'], as_index=False).agg({"item_cnt_day": "sum","item_price": "mean"}).sort_values('date_block_num')
 
+format_str = '%d.%m.%Y' # The format
+#returned_dates = returned_items.date.apply(lambda x:datetime.strptime(x,'%d.%m.%Y'))
 
+#%% 
+
+if generate_days:
+    sales_train_df['days'] = sales_train_df['date'].apply(lambda x:(datetime.strptime(x,'%d.%m.%Y').date() -date(2013,1,1)).days)
+    sales_train_df.to_csv('sales_train_with_days.csv',  index = False)
 # ## Describe the data ##
 # sales_train:   
 #     date:date  
@@ -56,18 +89,17 @@ test_df = pd.read_csv('../input/test.csv')
 #  
 #     
 
-# In[11]:
 
-
-print(sales_train_df.columns.values)
-print(sales_train_df.head())
-print(sales_train_df.tail())
-print(sales_train_df.info())
-print(sales_train_df.describe())
-print(len(np.unique(sales_train_df[['item_id']])))
-print(len(np.unique(sales_train_df[['shop_id']])))
-np.set_printoptions(precision=0, suppress=True)
-print( 'uniqe cnt_day' + str(np.unique(sales_train_df[['item_cnt_day']])))
+if verbose:
+    print(sales_train_df.columns.values)
+    print(sales_train_df.head())
+    print(sales_train_df.tail())
+    print(sales_train_df.info())
+    print(sales_train_df.describe())
+    print(len(np.unique(sales_train_df[['item_id']])))
+    print(len(np.unique(sales_train_df[['shop_id']])))
+    np.set_printoptions(precision=0, suppress=True)
+    print( 'uniqe cnt_day' + str(np.unique(sales_train_df[['item_cnt_day']])))
 
 
 # ## Negative cnts survey ##
@@ -75,28 +107,30 @@ print( 'uniqe cnt_day' + str(np.unique(sales_train_df[['item_cnt_day']])))
 # It does not reveal so much 
 # ## The second plot compares sale and return of one specific article ##
 
-returned_items = sales_train_df[sales_train_df.item_cnt_day <0]
-returned_dates = returned_items.date.apply(lambda x:datetime.strptime(x,'%d.%m.%Y'))
-returned_items['day'] = returned_dates
-returned_items = returned_items.sort_values(by=['day'])
-plt.plot(returned_items['day'],returned_items.item_cnt_day)
-plt.show()
+if returns_study:
+    returned_items = sales_train_df[sales_train_df.item_cnt_day <0]
+    returned_dates = returned_items.date.apply(lambda x:datetime.strptime(x,'%d.%m.%Y'))
+    returned_items['day'] = returned_dates
+    returned_items = returned_items.sort_values(by=['day'])
+    plt.plot(returned_items['day'],returned_items.item_cnt_day)
+    plt.savefig("returned_items.pdf", bbox_inces='tight')
+    #plt.show()
 
-ixs = returned_items.item_cnt_day.argsort()
+    ixs = returned_items.item_cnt_day.argsort()
 
 
 # Lets check the most returned item ids, and  plot time history
 # We dont see any specific patterns, we can maybe use it as a feature
 
-for ix in ixs[0:4]:
-    tp = returned_items.item_id.iloc[ix]
+    for ix in ixs[0:4]:
+        tp = returned_items.item_id.iloc[ix]
 
-    tp_frame = sales_train_df[sales_train_df.item_id == tp]
-    tp_dates = tp_frame.date.apply(lambda x:datetime.strptime(x,'%d.%m.%Y'))
-    tp_frame['day'] = tp_dates
-    tp_frame = tp_frame.sort_values('day')
-    plt.plot(tp_frame['day'], tp_frame.item_cnt_day)
-    plt.show()
+        tp_frame = sales_train_df[sales_train_df.item_id == tp]
+        tp_dates = tp_frame.date.apply(lambda x:datetime.strptime(x,'%d.%m.%Y'))
+        tp_frame['day'] = tp_dates
+        tp_frame = tp_frame.sort_values('day')
+        plt.plot(tp_frame['day'], tp_frame.item_cnt_day)
+        plt.savefig("negative " + str(ix) +".pdf", bbox_inces='tight')
 
 
 # ## Items data description ##  
@@ -105,68 +139,67 @@ for ix in ixs[0:4]:
 # ** item_name **: each line unique => 22170 different values  
 # ** item_id **: each line unique   => [0 - 22169]
 
-# In[12]:
+#%%
+if verbose:
+    print(items_df.columns.values)
+    print(items_df.head())
+    print(items_df.tail())
+    print(items_df.info())
+    print(items_df.describe())
+    print(items_df.describe(include=['O']))
+    print( len(np.unique(items_df[['item_category_id']])))
+    print( np.unique(items_df[['item_category_id']]))
+
+    print( len(np.unique(items_df[['item_name']])))
+    print( len(np.unique(items_df[['item_id']])))
+    print( np.min(items_df[['item_id']]))
+    print( np.max(items_df[['item_id']]))
 
 
-print(items_df.columns.values)
-print(items_df.head())
-print(items_df.tail())
-print(items_df.info())
-print(items_df.describe())
-print(items_df.describe(include=['O']))
-print( len(np.unique(items_df[['item_category_id']])))
-print( np.unique(items_df[['item_category_id']]))
+    # ## items_categories 
+    # Names of the categories
 
-print( len(np.unique(items_df[['item_name']])))
-print( len(np.unique(items_df[['item_id']])))
-print( np.min(items_df[['item_id']]))
-print( np.max(items_df[['item_id']]))
+    # In[13]:
 
 
-# ## items_categories 
-# Names of the categories
-
-# In[13]:
-
-
-print(item_categories_df.columns.values)
-print(item_categories_df.head())
-print(item_categories_df.tail())
-print(item_categories_df.info())
-print(item_categories_df.describe())
-#print(len(np.unique(item_categories_df[['item_id']])))
-#print(len(np.unique(item_categories_df[['shop_id']])))
+    print(item_categories_df.columns.values)
+    print(item_categories_df.head())
+    print(item_categories_df.tail())
+    print(item_categories_df.info())
+    print(item_categories_df.describe())
+    #print(len(np.unique(item_categories_df[['item_id']])))
+    #print(len(np.unique(item_categories_df[['shop_id']])))
 
 
-# ## shops ##  
-# Contains names of the shops  
-# Maybe there is something with the name of the shops, but hard to tell.  
-# Maybe we can sort them by which is most similare  
+    # ## shops ##  
+    # Contains names of the shops  
+    # Maybe there is something with the name of the shops, but hard to tell.  
+    # Maybe we can sort them by which is most similare  
 
-# In[14]:
-
-
-print(shops_df.columns.values)
-print(shops_df.head())
-print(shops_df.tail())
-print(shops_df.info())
-print(shops_df.describe())
-#print(len(np.unique(shops_df[['item_id']])))
-#print(len(np.unique(shops_df[['shop_id']])))
+    # In[14]:
 
 
-# ## test table ##  
-# Is this a list of items sold ?
-# 
+    print(shops_df.columns.values)
+    print(shops_df.head())
+    print(shops_df.tail())
+    print(shops_df.info())
+    print(shops_df.describe())
+    #print(len(np.unique(shops_df[['item_id']])))
+    #print(len(np.unique(shops_df[['shop_id']])))
 
-# In[15]:
+
+    # ## test table ##  
+    # Is this a list of items sold ?
+    # 
+
+    # In[15]:
 
 
-print(test_df.columns.values)
-print(test_df.head())
-print(test_df.tail())
-print(test_df.info())
-print(test_df.describe())
+    print(test_df.columns.values)
+    print(test_df.head())
+    print(test_df.tail())
+    print(test_df.info())
+    print(test_df.describe())
 
 
 # ## Summary of tables ##  
@@ -227,37 +260,99 @@ sales_train_df.groupby(['item_id']).size()
 #   
 #   
 #   
+#   
 #  
 #  
 
 # In[17]:
 
+if last_month_estimate:
+    # .sort_values('date_block_num').groupby(['shop_id','item_id'], as_index=False).last()
+    last = sales_train_df.groupby(['shop_id','item_id','date_block_num'], as_index=False).agg({"item_cnt_day": "sum"})
+    last2=last[last['date_block_num'] == 30]
+    last2.to_csv('last2.csv', index=False)
+    answer = pd.merge(test_df,last2,on=['shop_id','item_id'],how='left').fillna(0)[['ID','item_cnt_day']]
+    answer.columns =  ['ID','item_cnt_month']
+    answer['item_cnt_month'][answer['item_cnt_month'] > 20 ] = 20
+    answer.to_csv('csv_to_submit.csv', index = False)
+    rt("last_month")
 
-last = sales_train_df.groupby(['shop_id','item_id','date_block_num'], as_index=False).agg({"item_cnt_day": "sum"}).sort_values('date_block_num').groupby(['shop_id','item_id'], as_index=False).last()
-last2=last[last['date_block_num'] == 33]
-answer = pd.merge(test_df,last2,on=['shop_id','item_id'],how='left').fillna(0)[['ID','item_cnt_day']]
-answer.columns =  ['ID','item_cnt_month']
-answer.to_csv('csv_to_submit.csv', index = False)
+if generate_periods:
+    # Assuming that we have long trends, and seasonal trende we can try to add month of year as a separate factor  and use
+    # and use gradient boosting tree
+    # We go back and 
+    sales_train_df['month'] = sales_train_df['date_block_num'] % 12
+    test_df['month'] = sales_train_df['date_block_num'] % 12
+    # There could also be quarterly years trends
+    sales_train_df['quarter'] = np.floor(sales_train_df['month'] % 4)
+    # There could also be half year trends
+    sales_train_df['half'] = np.floor(sales_train_df['month'] % 6)
 
 
-# Assuming that we have long trends, and seasonal trende we can try to add month of year as a separate factor  and use
-# and use gradient boosting tree
-# We go back and 
-sales_train_df['month'] = sales_train['date_block_num'] % 12
-test['month'] = sales_train['date_block_num'] % 12
-# There could also be quarterly years trends
-sales_train_df['quarter'] = np.floor(sales_train['month'] % 4)
-# There could also be half year trends
-sales_train_df['half'] = np.floor(sales_train['month'] % 6)
+#%% 
+rt("generate periods")
+sales_train_df=sales_train_df.drop(columns=['date'])
 
-x_columns=['month','quarter','half','date,date_block_num','shop_id,item_id','item_price']
-# Split the data into test and validation
-X_train = sales_train_df[x_columns].where(sales_train_df['date_block_num']<last_block)
-Y_train = sales_train_df['item_cnt_day'].where(sales_train_df['date_block_num']<last_block )
-X_test = sales_train_df[x_columns].where(sales_train_df['date_block_num']==(last_block+1))
-Y_test = sales_train_df['item_cnt_day'].where(sales_train_df['date_block_num']==(last_block+1) )
+# ## Now we use days to get week and day lag
+# prev_week = sales_train_df[['days', 'shop_id', 'item_id','item_cnt_day','item_price']].copy()
+# prev_week = prev_week.rename(columns={'item_cnt_day' : 'item_cnt_prev_week', 'item_price' : 'item_price_prev_week'})
 
-#XGBoost
-model = XGBClassifier()
-model.fit(X_train, Y_train)
-predictions = mode.predict(X_test)
+# yesterday = sales_train_df[['days', 'shop_id', 'item_id','item_cnt_day','item_price']].copy()
+# yesterday = yesterday.rename(columns={'item_cnt_day' : 'item_cnt_yesterday', 'item_price' : 'item_price_yesterday'})
+
+# yesterday2 = sales_train_df[['days', 'shop_id', 'item_id','item_cnt_day','item_price']].copy()
+# yesterday2 = yesterday2.rename(columns={'item_cnt_day' : 'item_cnt_yesterday2', 'item_price' : 'item_price_yesterday2'})
+
+# yesterday3 = sales_train_df[['days', 'shop_id', 'item_id','item_cnt_day','item_price']].copy()
+# yesterday3 = yesterday3.rename(columns={'item_cnt_day' : 'item_cnt_yesterday3', 'item_price' : 'item_price_yesterday3'})
+
+# yesterday4 = sales_train_df[['days', 'shop_id', 'item_id','item_cnt_day','item_price']].copy()
+# yesterday4 = yesterday4.rename(columns={'item_cnt_day' : 'item_cnt_yesterday4', 'item_price' : 'item_price_yesterday4'})
+
+# yesterday5 = sales_train_df[['days', 'shop_id', 'item_id','item_cnt_day','item_price']].copy()
+# yesterday5 = yesterday5.rename(columns={'item_cnt_day' : 'item_cnt_yesterday5', 'item_price' : 'item_price_yesterday5'})
+
+
+# prev_week['days'] += 7
+# yesterday['days'] += 1
+# yesterday2['days'] += 2
+# yesterday3['days'] += 3
+# yesterday4['days'] += 4
+# yesterday5['days'] += 5
+# w = pd.merge(sales_train_df, prev_week,  on = ['shop_id','item_id','days'], how='left').fillna(0)
+# ww = pd.merge(w, yesterday,  on = ['shop_id','item_id','days'], how='left').fillna(0)
+# ww = pd.merge(ww, yesterday2,  on = ['shop_id','item_id','days'], how='left').fillna(0)
+# ww = pd.merge(ww, yesterday3,  on = ['shop_id','item_id','days'], how='left').fillna(0)
+# ww = pd.merge(ww, yesterday4,  on = ['shop_id','item_id','days'], how='left').fillna(0)
+# ww = pd.merge(ww, yesterday5,  on = ['shop_id','item_id','days'], how='left').fillna(0)
+
+# ww = ww.drop(columns=['days'])
+# rt("ww")
+
+# Check price outlayers
+if plotboxplot:
+    plt.figure(0)
+    plt.boxplot(sales_train_df['item_price'])
+    # we should remove > 37000
+    plt.figure(1)
+    plt.boxplot(sales_train_df['item_cnt_day'])
+    plt.show()
+
+# Replace negative and extreme values
+median = np.median(sales_train_df['item_price'])
+sales_train_df['item_price']=np.where(sales_train_df.item_price < 0, median, sales_train_df.item_price)
+sales_train_df['item_price']=sales_train_df['item_price'].clip(0,37000)
+
+# Aggregate over month
+www = sales_train_df.groupby(['date_block_num','shop_id','item_id'], as_index=False).agg({'item_cnt_day' : 'sum', 'item_price': 'mean'})
+www = www.rename(columns={'item_cnt_day' : 'item_cnt_month'})
+www.to_csv('y3', index = False)
+
+rt("aggregate over month into www")
+
+
+    
+    
+
+
+    
