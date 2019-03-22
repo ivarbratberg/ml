@@ -346,6 +346,16 @@ sales_train_df['item_price']=sales_train_df['item_price'].clip(0,37000)
 # Aggregate over month
 www = sales_train_df.groupby(['date_block_num','shop_id','item_id'], as_index=False).agg({'item_cnt_day' : 'sum', 'item_price': 'mean'})
 www = www.rename(columns={'item_cnt_day' : 'item_cnt_month'})
+
+# merge in category id
+#item_categories_df = pd.read_csv('../input/item_categories.csv')
+# shops_df = pd.read_csv('../input/shops.csv')
+# items_df = pd.read_csv('../input/items.csv')
+www = pd.merge(www, items_df, on="item_id")
+#www = pd.merge(www, item_categories_df, on="item_category_id")
+
+
+www = www.drop(columns=['item_name'])
 www.to_csv('y3', index = False)
 
 rt("aggregate over month into www")

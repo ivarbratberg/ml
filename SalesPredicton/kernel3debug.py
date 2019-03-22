@@ -31,7 +31,8 @@ lag = 6
 
 
 # Create lag -1 for item count which we should test againts
-w5 = myutils.create_lags2(w5, 'date_block_num', ['shop_id', 'item_id'], 'item_cnt_month', (1,1))
+w5 = w5[(w5['shop_id'] == 0) ]
+w5 = myutils.create_lags(w5, 'date_block_num', ['date_block_num', 'shop_id', 'item_id'], 'item_cnt_month', (1,1))
 
 # merge in zero items
 for month in w5['date_block_num'].drop_duplicates():   
@@ -43,5 +44,5 @@ grid = pd.DataFrame(np.vstack(grid), columns = cols, dtype=np.int32)
 w5 = pd.merge(grid,w5, on = cols, how = 'left').fillna(0)    
 
 print("Starting storing the file")
-w5.to_pickle("./y6.pkl")
+
 w5.to_csv('y6head.csv', index = False)
