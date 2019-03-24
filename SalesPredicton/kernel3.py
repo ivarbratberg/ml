@@ -7,6 +7,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import accuracy_score
 import numpy as np # linear algebra
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from datetime import date
@@ -26,6 +28,10 @@ def rt(prefix):
     now = time.time()
 
 w5 = pd.read_csv('y5.csv')
+for col in w5.columns:
+    if w5[col].dtype == np.float64:
+        w5[col] = w5[col].astype(np.float32)
+
 grid = []    
 lag = 6
 
@@ -43,5 +49,7 @@ grid = pd.DataFrame(np.vstack(grid), columns = cols, dtype=np.int32)
 w5 = pd.merge(grid,w5, on = cols, how = 'left').fillna(0)    
 
 print("Starting storing the file")
+
+print(w5.dtypes)
 w5.to_pickle("./y6.pkl")
 w5.to_csv('y6head.csv', index = False)
