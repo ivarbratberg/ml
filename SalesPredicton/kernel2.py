@@ -73,5 +73,6 @@ www = pd.merge(www,mean_price,on=['item_id'], how='left')
 # find the price divided by mean
 www['item_relative_price'] = www['item_price']/www['item_mean_price']
 
-www.to_csv('y5.csv', index = False)
+www.to_pickle("./y5.pkl")
+
 rt("w5")

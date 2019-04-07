@@ -33,14 +33,14 @@ def rt(prefix):
     print(prefix + " : " + str(time.time()-now) )
     now = time.time()
 
-last_block = 33
+last_block = 26
 lag = 12
 w6 = pd.read_pickle("./y6.pkl")
 
 # Take a subset
 w6 = w6[(w6['shop_id'] == 0) & (w6['item_cnt_month'] > 0)]
-w6.to_csv('y7.csv', index = False)
-sys.exit()
+# w6.to_csv('y7.csv', index = False)
+# sys.exit()
 
 train_columns = list(set(w6.columns)-set(['shop_name', 'item_name', 'item_category_name','item_cnt_month1']))
 

@@ -27,7 +27,7 @@ def rt(prefix):
     print(prefix + " : " + str(time.time()-now) )
     now = time.time()
 
-w5 = pd.read_csv('y5.csv')
+w5 = pd.read_pickle('y5.pkl')
 for col in w5.columns:
     if w5[col].dtype == np.float64:
         w5[col] = w5[col].astype(np.float32)
@@ -52,4 +52,4 @@ print("Starting storing the file")
 
 print(w5.dtypes)
 w5.to_pickle("./y6.pkl")
-w5.to_csv('y6head.csv', index = False)
+#w5.to_csv('y6head.csv', index = False)
