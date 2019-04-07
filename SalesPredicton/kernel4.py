@@ -36,7 +36,7 @@ def rt(prefix):
 last_block = 26
 lag = 12
 w6 = pd.read_pickle("./y6.pkl")
-
+print(w6.columns)
 # Take a subset
 w6 = w6[(w6['shop_id'] == 0) & (w6['item_cnt_month'] > 0)]
 # w6.to_csv('y7.csv', index = False)
@@ -47,9 +47,9 @@ train_columns = list(set(w6.columns)-set(['shop_name', 'item_name', 'item_catego
 for block_nr in range(25,last_block):
     idx = (w6['date_block_num']<block_nr) & (w6['date_block_num']>(block_nr-lag))
     X_train = w6[train_columns].loc[idx]
-    Y_train = w6['item_cnt_next_month'].loc[idx  ]
+    Y_train = w6['item_cnt_month1'].loc[idx  ]
     X_test = w6[train_columns].loc[w6['date_block_num']==block_nr]
-    Y_test = w6['item_cnt_next_month1'].loc[w6['date_block_num']==block_nr]
+    Y_test = w6['item_cnt_month1'].loc[w6['date_block_num']==block_nr]
     #Y_test = ww['item_cnt_day','item_id'].loc[ww['date_block_num']==block_nr ]
 
 
@@ -81,9 +81,9 @@ for block_nr in range(25,last_block):
     if use_linear_meta:
         idx = (w6['date_block_num']<(block_nr-1)) & (w6['date_block_num']>(block_nr-lag))
         X_train_m = w6[train_columns].loc[idx]
-        Y_train_m = w6['item_cnt_next_month'].loc[idx]
+        Y_train_m = w6['item_cnt_month1'].loc[idx]
         X_test_m = w6[train_columns].loc[w6['date_block_num']==(block_nr-1)]
-        Y_test_m = w6['item_cnt_next_month'].loc[w6['date_block_num']==(block_nr-1) ]
+        Y_test_m = w6['item_cnt_month1'].loc[w6['date_block_num']==(block_nr-1) ]
 
         # Creating two models and predict them
         ## 1  Linear
@@ -119,7 +119,7 @@ for block_nr in range(25,last_block):
     X_test['pred'] = predictions
     X_test['current'] = w6['item_cnt_month'].loc[w6['date_block_num']== block_nr]
     # X_test.to_csv('xtest.csv', index = False)
-    # Må aggregere y per måned 
+    # 
     # we add
     #pred_month = X_test.groupby(['date_block_num','shop_id','item_id'], as_index=False).agg({'y' : 'sum', 'item_cnt_day' : 'sum'})
     #pred_month.to_csv('pred_month.csv')
