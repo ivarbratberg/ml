@@ -15,7 +15,7 @@ from sklearn.preprocessing import PolynomialFeatures
 
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
-
+import pdb
 import os
 import pickle
 import h5py
@@ -23,7 +23,7 @@ import sys
 use_tree= True
 use_linear = False
 use_prev_month = False
-use_linear_meta = True
+use_linear_meta = False
 
 
 global now 
@@ -38,10 +38,11 @@ lag = 12
 w6 = pd.read_pickle("./y6.pkl")
 print(w6.columns)
 # Take a subset
-w6 = w6[(w6['shop_id'] == 0) & (w6['item_cnt_month'] > 0)]
+
+w6 = w6[(w6['shop_id'] < 10) & (w6['item_cnt_month'] > 0)]
+
 # w6.to_csv('y7.csv', index = False)
 # sys.exit()
-
 train_columns = list(set(w6.columns)-set(['shop_name', 'item_name', 'item_category_name','item_cnt_month1']))
 
 for block_nr in range(25,last_block):
@@ -60,10 +61,13 @@ for block_nr in range(25,last_block):
     #XGBoost
     print("Starting training" )
     startTime = time.time()
-    if use_tree:        
+    if use_tree:            
         eval_set = [(X_train, Y_train), (X_test, Y_test)]
         eval_metric = ["rmse"]
         #time model.fit(X_train, y_train, eval_metric=eval_metric, eval_set=eval_set, verbose=True)
+
+        #XGBRegressor(max_depth=8, min_child_weight = 300, n_estimators=1000, scale_pos_weight=1, 
+        #learning_rate = 0.1, subsample=0.8, reg_alpha=0.3, gamma=100) 
 
         model = XGBRegressor(max_depth=4, min_child_weight = 10, n_estimators=100, scale_pos_weight=1, 
         learning_rate = 0.1, subsample=0.8, reg_alpha=0.3, gamma=100)        
