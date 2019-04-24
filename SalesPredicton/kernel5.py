@@ -22,11 +22,11 @@ import os
 import pickle
 import h5py
 import sys
-use_tree= False
+use_tree= True
 use_linear = False
 use_linear_linear = False
 use_prev_month = False
-use_linear_meta = True
+use_linear_meta = False
 
 global now 
 now= time.time()
@@ -56,8 +56,9 @@ if use_tree:
     #     min_child_weight=1, missing=None, n_estimators=10, nthread=-1,
     #     objective='multi:softmax', reg_alpha=0, reg_lambda=1,
     #     scale_pos_weight=1, seed=0, silent=True, subsample=.8, eval_metric ='rmse')
-    model = XGBRegressor(max_depth=8, min_child_weight = 300, n_estimators=1000, scale_pos_weight=1, 
-        learning_rate = 0.1, subsample=0.8, reg_alpha=0.3, gamma=100)  
+    # learninreate=0.2565963232397263, gamma=2.025792317074175, max_depth=37, n_estimator=226, min_child_weight=9.46056590169735, col_sample_by_tree=0.2006610890423738, sub_sample0.6724546065784309
+    model = XGBRegressor(max_depth=37, min_child_weight = 9.46, n_estimators=250, scale_pos_weight=1, 
+        learning_rate = 0.256, subsample=0.67, gamma=2)  
     model.fit(X_train, Y_train)    
     predictions = model.predict(X_test)
     

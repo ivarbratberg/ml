@@ -42,13 +42,13 @@ def rt(prefix):
 use_grid_search = False
 use_bayesian_optimizer = True
 
-last_block = 26
+last_block = 33
 lag = 12
 w6 = pd.read_pickle("./y6.pkl")
 print(w6.columns)
 # Take a subset
 
-w6 = w6[(w6['shop_id'] < 10) & (w6['item_cnt_month'] > 0)]
+#w6 = w6[(w6['shop_id'] < 10) & (w6['item_cnt_month'] > 0)]
 
 # w6.to_csv('y7.csv', index = False)
 # sys.exit()
@@ -85,8 +85,19 @@ if use_grid_search:
 
 if use_bayesian_optimizer:
     j=o3.bayesian(X_train, Y_train)
-    print(j)
+    for it in j.x_iters:
+        print(it)
+    print(j.func_vals)
+    arr = np.array([j.func_vals])
+
+    largest_idx = list(arr.argsort()[-3:][::-1])
+
+    for idx in largest_idx:
+        print(idx)
+        print(j.fun_vals[idx])
+        print(j.x_iters[idx])
     
+sys.exit()
 
 X_test['y'] = Y_test
 X_test['pred'] = predictions

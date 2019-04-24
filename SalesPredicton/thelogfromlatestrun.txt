@@ -1,0 +1,1267 @@
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.795598268508911
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-12.154996871948242
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-47.75829188028971
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.18175478776296
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-7298853888.0
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.512729008992513
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.869473854700724
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.260928988456726
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.887932618459066
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-13208.255533854166
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.4023259480794272
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.7993107636769614
+[0.9363962577184887, 3.3133758798253474, 35, 289, 80.26368332025203, 0.5294334582224333, 0.4381304182689808]
+[0.9374919432533578, 4.5782940382838095, 6, 239, 22.522181890564667, 0.3819483065583642, 0.3845427751867768]
+[0.48388906038791335, 4.470446488825286, 10, 13, 60.89905534570186, 0.4362623330818727, 0.5793868927437196]
+[0.7397097898898649, 3.533430109930851, 41, 140, 70.36749807362392, 0.2982446327174926, 0.4733179368696495]
+[0.1477454752151224, 1.8753961625967053, 7, 41, 59.352617351322635, 0.22887613864390302, 0.24939717818387364]
+[0.42763387905963, 2.2223580333798028, 24, 99, 33.12149444251961, 0.47190638289235076, 0.7166170465748047]
+[0.4135252405139237, 2.3928227045809884, 44, 262, 58.17358736052795, 0.35106195365829873, 0.5789657760114646]
+[0.349752207719174, 2.3049743688124953, 32, 104, 20.994361105104456, 0.37175788798848597, 0.5583646777279134]
+[0.5551019853399988, 4.951636826438122, 1, 69, 58.24053867051457, 0.7790248455510274, 0.1094884548864926]
+[0.8134413382334414, 0.493940446080507, 10, 292, 42.638844082775464, 0.7843421105913903, 0.6145624211225696]
+[0.7656498588330585, 3.0939635445849536, 47, 67, 13.926076106713907, 0.17574168822190345, 0.3080581601753266]
+[0.7019168641515525, 4.118258134438225, 19, 185, 17.22817276057367, 0.6939883659517946, 0.6857643051790551]
+[0.470551916601184, 1.7155037059056908, 28, 246, 95.63071055426386, 0.7041311145079092, 0.43306120664227155]
+[0.055304495918587895, 1.498680848080026, 41, 217, 63.19250661957048, 0.5394980745933898, 0.7159890244905326]
+[0.391034608718975, 4.3195896668659834, 47, 89, 20.327987852557705, 0.16502278448108887, 0.4798620394357559]
+[0.7478848434660045, 0.43528387316682965, 32, 223, 30.863463886232662, 0.14441200151103128, 0.46672714319429953]
+[0.3709551146854159, 3.398380638367551, 20, 143, 22.196281881670306, 0.29508735821561116, 0.5835712378489059]
+[0.8414247571856346, 1.7240518913374538, 35, 101, 28.836053300358266, 0.6646858123310976, 0.3673993133083219]
+[0.9549688033029563, 0.1457566620446105, 43, 132, 17.406456706203343, 0.4422169977070396, 0.14906662830108572]
+[0.9898854607927451, 3.0702048899897822, 31, 13, 63.78490979380101, 0.6721207924004128, 0.6185860535826756]
+[0.66816850456308, 3.4572755956974315, 3, 204, 4.479090765258238, 0.10804563423234716, 0.6574373401910424]
+[0.8921046551801857, 2.36823920131632, 25, 66, 30.078872840993377, 0.6076168473370379, 0.7732103002378773]
+[0.9372866596063472, 2.159018717629715, 19, 252, 79.94592997141515, 0.42735939165282333, 0.22909684346521147]
+[0.5348419074262192, 2.393369148362277, 42, 269, 98.20853985951399, 0.2007029113973957, 0.28089344971519925]
+[0.09097505625488946, 2.5843579905024168, 9, 125, 86.27376451408273, 0.611149523069396, 0.57383093013953]
+[0.6600978009263361, 2.9003268036227325, 19, 142, 2.1760038589856805, 0.7412300374116724, 0.5442731768907376]
+[0.6284439091808808, 3.222231715410298, 17, 108, 14.454829331176315, 0.5889558749038243, 0.7139913461717882]
+[0.5203272395811275, 0.11939609912443308, 16, 18, 53.42123782399517, 0.31116210045591836, 0.16949901545399562]
+[0.8272294359575659, 1.8866426485100023, 17, 70, 19.9465478117983, 0.7872396827820647, 0.6996136716125286]
+[0.08200862170183211, 1.8850120973448203, 37, 78, 21.266633207305226, 0.7577866828766076, 0.4575733780676259]
+[0.27908268377099404, 0.9389791152054663, 11, 150, 88.56858861324706, 0.11906019938362204, 0.6771335037170152]
+[0.09024223920818299, 4.735824253964452, 32, 119, 83.82058042690356, 0.5697750081700413, 0.6292340796116037]
+[0.22051995528749774, 4.729124858861432, 13, 38, 5.074122387090344, 0.4451976253544915, 0.1113665477851887]
+[0.13883055194776409, 2.9523616690012577, 5, 30, 46.43636365707456, 0.6255237208940344, 0.14869737594875826]
+[0.34349383475252765, 1.828294477180208, 41, 117, 22.58931093317372, 0.6915864200597833, 0.720324403724317]
+[0.10606275593099093, 0.10472254662579229, 29, 77, 60.33103720876076, 0.556558217037797, 0.7693385484928401]
+[0.8345132180033564, 0.5606358717191219, 37, 149, 90.74145767437938, 0.6172364613521285, 0.4671463989227045]
+[0.31168732918622705, 0.9355704272948535, 4, 238, 25.072826085112595, 0.5073009824892557, 0.11235790219627342]
+[0.41143560708811877, 4.285700673240151, 5, 91, 23.63103980552347, 0.6086413766330028, 0.6609877063932725]
+[0.07602760176311808, 0.8154002319332427, 34, 109, 67.61072513888772, 0.7098592993042225, 0.4780102471933946]
+[0.45855831805458636, 4.09007685624681, 12, 187, 48.19327207330294, 0.5178153140198865, 0.23914980632190705]
+[0.19487188363028268, 0.9037284382358175, 17, 272, 83.1981263189713, 0.5552134594846813, 0.10270505254864137]
+[0.9008695652204245, 3.76872023464134, 45, 136, 96.56353823262195, 0.5758400265581803, 0.6038280512072762]
+[0.26132123369557886, 4.5765514447921785, 17, 286, 65.07947453538641, 0.46308868616532517, 0.4948333475557197]
+[0.36432048296224345, 1.775450146297428, 34, 38, 91.58442694901558, 0.5853722862796789, 0.5601217634155965]
+[0.30539513106750366, 4.301199931191977, 6, 74, 37.49398950548224, 0.44354942974262834, 0.16925736891750998]
+[0.22340333228369608, 1.0153160044244594, 3, 61, 88.16027745265782, 0.7866300508712675, 0.5748192117752237]
+[0.5246179338569582, 2.9742321069186723, 1, 11, 30.871928413349334, 0.35974353932255854, 0.5336323756407891]
+[0.6616289267293383, 0.08840346325565686, 24, 239, 23.16705912949323, 0.7573572909392146, 0.6563087087719923]
+[0.6881398634460908, 0.22049421664437743, 9, 290, 70.96530363883261, 0.13249778271353133, 0.7377730502486386]
+[0.09945724427455463, 4.9662670568968625, 24, 239, 5.5318053652872, 0.4103855492248818, 0.47353094811526675]
+[0.15940114551818776, 0.8656683369345604, 37, 184, 2.256718062044281, 0.35848296663798673, 0.5218576315279214]
+[0.39741435081756726, 1.2722758747425043, 6, 226, 35.42430408730189, 0.40423781755859456, 0.600499945701873]
+[0.9679530861009881, 2.7907536942157933, 16, 280, 60.3251127214039, 0.6062126354679953, 0.25877172072204746]
+[0.42904040928360077, 1.36834797744367, 25, 73, 49.63292844503966, 0.32631748848010433, 0.16546338584686893]
+[0.9452704908774225, 2.3783253574552976, 13, 16, 77.31321723672254, 0.7571260123303327, 0.46108537630446567]
+[0.5243026272790149, 0.7886600891158558, 31, 288, 3.6494051267367413, 0.23652035664679535, 0.6793944595404582]
+[0.4468143382286589, 0.8826462970466021, 9, 90, 48.47418683758545, 0.3636666145695888, 0.5418547195630632]
+[0.8853054526562208, 1.2946393892309414, 8, 75, 53.45522653294349, 0.6536633246320386, 0.5912730557041209]
+[0.042704929614204475, 3.7913905600087885, 5, 69, 71.18411697121645, 0.6748743686351871, 0.7777628074157622]
+[0.5983502557542876, 1.368979542583164, 2, 200, 42.91693987045458, 0.6575100398602761, 0.27300830444049984]
+[0.3271092872597379, 0.6170474663661675, 17, 160, 70.77009370554133, 0.3772823138798339, 0.7240121746387453]
+[0.4532261473565836, 2.0030320717519356, 8, 250, 87.40113856842987, 0.12660287518567312, 0.694517096248149]
+[0.8372402841189267, 3.9012158667649994, 18, 266, 89.11396193723509, 0.508828361195956, 0.25894410842697324]
+[0.6828011760903214, 3.0047287624041203, 4, 163, 34.53734198419833, 0.21208618626622844, 0.6493984168580689]
+[0.7901598149003576, 3.340839266849007, 5, 73, 79.51350807123922, 0.36839165721247935, 0.3260148285547628]
+[0.6558592424299551, 4.211817857688117, 7, 96, 73.94557233171074, 0.18497939117305087, 0.1029483705642557]
+[0.05918229598459547, 2.7952598115636635, 40, 270, 42.13965087644003, 0.261941076023495, 0.6078798993691171]
+[0.6165888380251097, 1.1497191895136996, 31, 271, 73.74110416711702, 0.7309307992264119, 0.6958509237399227]
+[0.5033811534975119, 3.184018760785963, 10, 135, 67.77048182164734, 0.36277333925359423, 0.39714891724659873]
+[0.15063244328112005, 2.720075875567546, 21, 61, 45.56300462043412, 0.23190414700855577, 0.6835784989500172]
+[0.5605507302383144, 4.14124440727734, 43, 150, 2.8520402142356853, 0.17076371508285132, 0.65866398830136]
+[0.24832132023983394, 2.376863914726353, 35, 19, 90.59788008223369, 0.2923020715274188, 0.5536138969135523]
+[0.22290228524688122, 0.7151200140084664, 38, 156, 75.24089655874846, 0.381189632696473, 0.4551722034124176]
+[0.5482407815320359, 3.3043087014725883, 28, 258, 62.76697060488232, 0.525273219730875, 0.78077037129528]
+[0.049197526094555424, 0.7144693207183485, 46, 238, 81.65367132119614, 0.5053482027418637, 0.23592681320007036]
+[0.8674354160753961, 0.20715716475608606, 40, 67, 10.346196225109246, 0.1498115909592974, 0.5150416336079069]
+[0.43732183901720967, 4.553978419339965, 24, 182, 80.34267667914584, 0.5443342503528731, 0.7780993970759817]
+[0.9959317831095823, 0.2959441997508739, 15, 143, 51.982199799982574, 0.22115570939133922, 0.7453134056551184]
+[0.3607976314368913, 0.7434467524490458, 6, 172, 68.12344633859723, 0.5798626283922889, 0.3574924449036988]
+[0.03515029519372571, 0.00968678429592973, 6, 114, 25.582145954549272, 0.33193072872825957, 0.7725767840351278]
+[0.4454113110902813, 4.1761382815667005, 25, 227, 80.83998409729841, 0.5581696687035549, 0.7816210349129893]
+[0.26922329428066655, 4.803241295064478, 11, 41, 8.026458837765347, 0.45062058017316076, 0.4169762788051099]
+[0.33521611776546906, 1.698126785775542, 42, 80, 93.93722451275426, 0.45717566227812834, 0.44020337630473694]
+[0.2411821345585276, 1.5411129413240134, 32, 146, 60.39981148040844, 0.2576900059845917, 0.55595789341234]
+[0.5431241344635489, 3.12861722315418, 50, 181, 31.09905992210536, 0.24980500199283326, 0.6588897675642768]
+[0.7057360433078806, 3.4578874666585655, 11, 138, 59.72725814262696, 0.5770957545586958, 0.4174552524813654]
+[0.5437260652543561, 2.0476204645748397, 11, 5, 37.77331184796507, 0.3759238628227536, 0.3783575272671458]
+[0.4562463441579958, 1.6729243029528371, 47, 27, 64.48039278249715, 0.5241743706917597, 0.5024439396556667]
+[0.7733686849003678, 1.6108916537017506, 32, 253, 89.41788796367621, 0.571373938136965, 0.26599541671425286]
+[0.7877689890358491, 2.1825733820388553, 14, 225, 56.964420492352936, 0.5289640276712112, 0.12438177084790446]
+[0.04099000643508988, 4.153768137164048, 33, 235, 93.48269651910914, 0.15258681090512474, 0.4278795435166669]
+[0.935378821211092, 3.6023190193155825, 15, 190, 6.315501099194414, 0.28287403684737533, 0.11363885533647074]
+[0.8846582877439388, 4.009171933726295, 46, 54, 82.31851585669925, 0.7965072043499424, 0.195722246713885]
+[0.40597945262892676, 0.2017411918570894, 24, 199, 79.31812477221403, 0.429617209054146, 0.6427154127979696]
+[0.19751106083660303, 2.210118697823531, 17, 13, 93.8478855501118, 0.27263262302835106, 0.49483991009154116]
+[0.367996581138255, 3.1451931005666802, 25, 199, 1.5283311779874915, 0.14080402447647714, 0.5407486179565121]
+[0.8891684898693536, 4.1510185783285065, 46, 138, 5.434957086944571, 0.7940940352064052, 0.30177380543639554]
+[0.8375115831664762, 2.990811464656455, 31, 52, 64.47073649525029, 0.48596385855696855, 0.797985237638978]
+[0.28139839374709613, 3.1556590678891983, 16, 24, 11.94427230593747, 0.3993276031511883, 0.1765618314818196]
+[ec2-user@ip-172-31-6-133 SalesPredicton]$ python3 optimizer.py
+[ec2-user@ip-172-31-6-133 SalesPredicton]$ python3 optimizer.py
+Index(['shop_id', 'item_id', 'date_block_num', 'item_cnt_month', 'item_price',
+       'item_category_id', 'date_category_avg_cnt', 'date_category_avg_cnt-6',
+       'date_category_avg_cnt-5', 'date_category_avg_cnt-4',
+       'date_category_avg_cnt-3', 'date_category_avg_cnt-2',
+       'date_category_avg_cnt-1', 'date_item_avg_cnt', 'date_item_avg_cnt-6',
+       'date_item_avg_cnt-5', 'date_item_avg_cnt-4', 'date_item_avg_cnt-3',
+       'date_item_avg_cnt-2', 'date_item_avg_cnt-1', 'date_cat_avg_cnt',
+       'date_cat_avg_cnt-6', 'date_cat_avg_cnt-5', 'date_cat_avg_cnt-4',
+       'date_cat_avg_cnt-3', 'date_cat_avg_cnt-2', 'date_cat_avg_cnt-1',
+       'date_shop_avg_cnt', 'date_shop_avg_cnt-6', 'date_shop_avg_cnt-5',
+       'date_shop_avg_cnt-4', 'date_shop_avg_cnt-3', 'date_shop_avg_cnt-2',
+       'date_shop_avg_cnt-1', 'date_shop_cat_avg_cnt',
+       'date_shop_cat_avg_cnt-6', 'date_shop_cat_avg_cnt-5',
+       'date_shop_cat_avg_cnt-4', 'date_shop_cat_avg_cnt-3',
+       'date_shop_cat_avg_cnt-2', 'date_shop_cat_avg_cnt-1',
+       'item_cnt_month-6', 'item_cnt_month-5', 'item_cnt_month-4',
+       'item_cnt_month-3', 'item_cnt_month-2', 'item_cnt_month-1', 'month',
+       'item_mean_price', 'item_relative_price', 'item_cnt_month1'],
+      dtype='object')
+Starting training
+[(0.0, 1.0), (0.0, 5.0), (1, 50), (1, 300), (1.0, 100.0), (0.1, 0.8), (0.1, 0.8)]
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.3220940430959067
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.61888321240743
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.27739946047465
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.899578253428141
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.8298398653666177
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.638848622639974
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-522.3329060872396
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.8443212509155273
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-20.166711171468098
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.8730339209238687
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.373323639233907
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.6085354487101235
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.6944154898325605
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.5938671429951987
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.2104171911875405
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.1918532053629556
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.282478173573812
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.260178804397583
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-7.15843137105306
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.182900309562683
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-6.997069517771403
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.276922861735026
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.436098098754883
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.001949946085612
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.584760983784993
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.581205447514852
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.8122103214263916
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.080507198969523
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.5823376178741455
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-335.8905436197917
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.4214944044748945
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.034841299057007
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.972578446070353
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.586169083913167
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.134878158569336
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.576325456301371
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.1304502487182617
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.325354099273682
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.902003208796183
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.549778302510579
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.182950337727864
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.765303452809651
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.985767364501953
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.635697523752848
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-6.05022652943929
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.678841272989909
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.1330464680989585
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.1619711716969805
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-6.697884718577067
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.3648422956466675
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.6989797751108804
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.524912714958191
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.0780204931894937
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-82.9483133951823
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.3288780053456626
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.639290730158488
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.227654457092285
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.2462006409962973
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.350104888280233
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.269305467605591
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.6327778498331704
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.262489398320516
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.9840799967447915
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.3311009407043457
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.441390514373779
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.632752736409505
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.8300660451253257
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.8764188289642334
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.1160688400268555
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.298860271771749
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.6109646956125894
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.6915379365285235
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.6241323153177896
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.9742368857065835
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.5665680170059204
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.825389544169108
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.3684812386830645
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-7.0272776285807295
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.2653766870498657
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.5080530246098838
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.847405513127645
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.201277256011963
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.5355791250864663
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.516189614931742
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.6418917179107666
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.7386223475138345
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.2709141572316485
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.9788510004679365
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.424908717473348
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.289564847946167
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.488574186960856
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.2050758997599282
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.3264309565226235
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-4.17937175432841
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.3913551966349282
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-3.164292573928833
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.3159844080607095
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-5.453097979227702
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-19.26808802286784
+/home/ec2-user/.local/lib/python3.7/site-packages/sklearn/model_selection/_split.py:2053: FutureWarning: You should specify a value for 'cv' instead of relying on the default value. The default value will change from 3 to 5 in version 0.22.
+  warnings.warn(CV_WARNING, FutureWarning)
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+/home/ec2-user/.local/lib/python3.7/site-packages/xgboost/core.py:587: FutureWarning: Series.base is deprecated and will be removed in a future version
+  if getattr(data, 'base', None) is not None and \
+-2.518721580505371
+[0.17997008633618009, 2.7854563814506585, 12, 50, 31.662039754519334, 0.42862026514169604, 0.773707304210239]
+[0.8724158482600617, 4.5804333926866265, 42, 18, 15.376899361167263, 0.6108728906114268, 0.688348937742103]
+[0.09835912459170429, 4.655448753598641, 49, 181, 29.35869852909406, 0.39723301038600967, 0.36868870515383845]
+[0.6454415483315272, 2.0283209245468385, 39, 248, 66.86677609218712, 0.6699853313222748, 0.6024625929130695]
+[1.0, 5.0, 50, 1, 100.0, 0.8, 0.8]
+[1.0, 2.53277145961556, 48, 128, 1.0, 0.8, 0.6962244685454549]
+[1.0, 0.0, 50, 33, 1.0, 0.8, 0.25927759825990254]
+[0.35714284353642306, 1.9911652968221265, 38, 103, 64.41705946727836, 0.62482210896015, 0.4706883506830567]
+[0.5705698507911878, 1.362588335473305, 20, 90, 15.203597755105156, 0.5207776738961101, 0.12281518060040443]
+[0.6693033062677823, 1.5633149247018276, 33, 241, 60.1497631147961, 0.2478071006179658, 0.658642804088398]
+[0.188355854564853, 4.229634720048915, 43, 241, 8.60259402617552, 0.4458487638251092, 0.7416444732017846]
+[0.46716974311670334, 4.195690280962195, 1, 12, 87.90530616496699, 0.5317076058690646, 0.7538298583560993]
+[0.9300252282743839, 4.303560587846475, 31, 200, 49.99118759754501, 0.4081345690331889, 0.7488532597099827]
+[0.2558466458691581, 0.8270599917619171, 44, 242, 2.3195502927933607, 0.6762392879152017, 0.6578031636578995]
+[0.42469897861099337, 0.49031127301524824, 23, 140, 62.86285204316382, 0.693781892031445, 0.4851448128765058]
+[0.38405730272748784, 2.8655725753708423, 39, 110, 42.448810028225424, 0.10342700811202414, 0.25646856314961297]
+[0.4325908748817717, 4.846231494251553, 44, 33, 27.05703371477285, 0.19607457570469172, 0.2413395412407759]
+[0.48710118289568094, 1.986205415919371, 7, 107, 2.1037651735945837, 0.5153268833877872, 0.7655191775253483]
+[0.9704318370463144, 3.947384707568487, 8, 244, 38.38141484434824, 0.34131225553115985, 0.5203791497905924]
+[0.017916674698400196, 1.5942811313065766, 27, 82, 30.206400443681083, 0.41282968531550335, 0.7823454278686394]
+[0.6286571483463654, 2.3842676926066373, 18, 188, 61.62137369821538, 0.1561682580530399, 0.21211116609443875]
+[0.16657431793813274, 3.99200264319272, 37, 61, 57.45902521792005, 0.5217970605119492, 0.7742090231364162]
+[0.5322673202124307, 3.6804551067393003, 35, 71, 77.21614739461823, 0.2661714098127966, 0.2583836449393745]
+[0.4668196399303606, 3.8567524649204525, 17, 190, 91.71735105173975, 0.7118723183645556, 0.5697818445182161]
+[0.6556375171885443, 2.8606022626939764, 8, 153, 97.36348724017203, 0.5139868742309882, 0.1277744941914764]
+[0.8156117579499687, 1.3041263134881633, 32, 102, 69.69018437583038, 0.355495267647856, 0.6151521208874343]
+[0.6053954978484439, 3.6471415904776565, 7, 191, 73.44250868668348, 0.36158773107223663, 0.28351202801867825]
+[0.710823150616276, 1.6630459968672187, 3, 276, 59.70470209828167, 0.43860503955706853, 0.6323523222049168]
+[0.6700775435264731, 3.9136325856737777, 25, 240, 27.788910740309255, 0.2057715460548224, 0.7081488200125189]
+[0.7544519115688326, 4.739497684086868, 44, 128, 20.55683081979472, 0.44785192920811767, 0.13342710886770093]
+[0.890526911757302, 4.525971957526455, 43, 94, 63.78897909629738, 0.3119477851446224, 0.720251458641906]
+[0.8702031526557279, 0.4759392024087984, 15, 23, 56.86810499920645, 0.605228935606941, 0.2253748554204526]
+[0.38823541985312404, 2.255290252279999, 12, 177, 65.0711954504695, 0.20901567870472246, 0.2677547773776642]
+[0.9441191848529165, 1.6726850931420036, 25, 69, 31.772893356759663, 0.35987749804003144, 0.6849911906646523]
+[0.6075132212057837, 0.2081430718409694, 16, 62, 84.54636463088781, 0.10286345893583813, 0.39437428608019587]
+[0.473040648573015, 1.6946054566376292, 1, 58, 8.853642616002299, 0.7359888419581444, 0.7717710883535134]
+[0.5844686837903891, 2.0185772920205256, 21, 83, 36.679814200499266, 0.1036416775654937, 0.7720765099425962]
+[0.8011766619119649, 2.1697388997759304, 48, 72, 80.57774644518207, 0.36856888833434875, 0.417597705211436]
+[0.4120211580722408, 1.9329537056514434, 22, 151, 67.5943295966892, 0.3986032113246788, 0.572997184387027]
+[0.8660541113519415, 2.4491982679146873, 13, 298, 3.9865654491445746, 0.6913908157989845, 0.6388717319044257]
+[0.7326780863700315, 1.6034625471001809, 31, 151, 79.9526408952838, 0.2611020338644807, 0.4160212266006401]
+[0.8980158137958143, 2.857003595604234, 44, 150, 26.832729307601127, 0.6659413167644462, 0.6375721184141184]
+[0.2908209170926746, 1.8778233958962849, 5, 3, 99.14949338119294, 0.7445153052852407, 0.10349536133166241]
+[0.21645600364115075, 3.9447726651524073, 42, 132, 35.53646717449398, 0.1861008372475938, 0.17037443447692846]
+[0.6593549062435456, 3.9413156511130323, 41, 243, 31.04458326033505, 0.3153622411500795, 0.4497258059451581]
+[0.9132805568552654, 3.0258529874302558, 36, 247, 43.88002225447387, 0.34002311216467157, 0.7350828672627048]
+[0.543166605637903, 2.41015209384603, 39, 213, 22.71569519965345, 0.7351261452938783, 0.7657628546578777]
+[0.9237520020083062, 4.02463690153599, 33, 106, 98.84471187266838, 0.2777287816099222, 0.6545632683023033]
+[0.6389619960683951, 0.0636849513220872, 31, 98, 58.681018935103396, 0.7357106171010119, 0.15011310671650313]
+[0.16445643718413797, 4.6051303244718165, 36, 195, 82.98620577235067, 0.6706754440458601, 0.7680533308042506]
+[0.4065704720298685, 2.9007473256640557, 8, 197, 58.00787552596428, 0.7653532934057494, 0.7022042702154105]
+[0.1779520132018612, 0.5130527238528216, 46, 227, 38.941787914454046, 0.7852568187044962, 0.7369820144171276]
+[0.14538260029405162, 3.2930411821472276, 41, 4, 80.42891600658298, 0.18570514236637267, 0.49066709798812513]
+[0.9014397461093855, 4.9694126960675336, 7, 291, 50.51338622293372, 0.7937783344086478, 0.1357543304928846]
+[0.14746513134508812, 0.05318865767103998, 48, 147, 69.37627340077837, 0.4133823341982915, 0.769210785861716]
+[0.5461270355974919, 0.9645741442183562, 17, 114, 39.69364609570748, 0.37569160432865967, 0.4837880431059324]
+[0.011922081714750402, 1.3336923369679379, 20, 112, 43.97349992806387, 0.6499851427198943, 0.6418730128150967]
+[0.13986756785595436, 4.598763682142267, 28, 42, 91.23212688302765, 0.32679363383003335, 0.7599260606279936]
+[0.10237110295785404, 4.452301957967103, 20, 227, 72.66052971922879, 0.6767248436584159, 0.7337320512914164]
+[0.8368140489301875, 2.319021447919482, 31, 10, 76.4120372208575, 0.5989650934368284, 0.20905851196049172]
+[0.2591757863460104, 4.948663116591236, 37, 179, 14.26977692701646, 0.6828966335670782, 0.7623393344367314]
+[0.129630106389672, 4.832144667424066, 24, 179, 77.33586397281394, 0.2061835843249984, 0.1320997996832764]
+[0.8194450192885704, 1.9537870502059156, 10, 249, 83.8745003400514, 0.6724374481050897, 0.7811236766198738]
+[0.6275548094450074, 1.1062557803452047, 42, 227, 43.366281013165825, 0.6711986562047214, 0.7422632514129016]
+[0.7443671048664883, 1.069964459272257, 48, 185, 21.32922456786595, 0.5254456440634514, 0.5611374157966146]
+[0.8242273530615486, 0.2579040135306671, 47, 142, 34.573416465710615, 0.5787671646620405, 0.6228703074161162]
+[0.702806314352302, 0.5140764399811844, 44, 212, 88.45618208768227, 0.3153712980579054, 0.6784875467216975]
+[0.4522582228684653, 2.537579080665769, 37, 63, 80.83729282781542, 0.49242227697556185, 0.307718174359881]
+[0.6413917435016243, 0.661576622199745, 11, 13, 23.198919314381538, 0.3589044578938706, 0.48468207315057255]
+[0.15872227148572607, 0.011454218355269054, 11, 292, 80.52993409065861, 0.4443282999631901, 0.7336596043610133]
+[0.5005139455611266, 0.3330732621902022, 14, 26, 84.18436086594457, 0.4784170574643297, 0.6786544291616152]
+[0.8117476995226253, 2.8457398880484126, 24, 169, 68.28380260426457, 0.3763641137633901, 0.6423893853060971]
+[0.6403612635562026, 3.0139606200040037, 18, 7, 85.5335168906705, 0.27105467340486333, 0.7712200729853467]
+[0.8092131922149394, 4.026691305987676, 16, 62, 44.40996633842655, 0.5511860169250987, 0.7119562101732041]
+[0.21028773441087106, 3.740555035638779, 17, 193, 34.63257874785116, 0.5121700051553286, 0.5217797366587101]
+[0.7052856888270012, 1.0353088891063176, 48, 253, 90.27731459782053, 0.7269317082985612, 0.4969766700826288]
+[0.9158209106813969, 1.0232551431247447, 8, 156, 28.309287124416254, 0.15817455527549457, 0.7657092736100254]
+[0.5645041556633439, 1.050916319256803, 28, 236, 48.00851719387408, 0.19090058084540928, 0.2762456263452193]
+[0.18310393408091843, 0.3922413287146354, 19, 69, 91.06743659064041, 0.4495543472745803, 0.6199485962981806]
+[0.22208289189079516, 2.4787163276928483, 21, 222, 63.949980929931, 0.4226376945039664, 0.6305815879427573]
+[0.5564767708076985, 4.360600298031036, 36, 53, 99.57985659234532, 0.14371736217404313, 0.35932022303978084]
+[0.7547686116389289, 0.6071767039156651, 26, 296, 34.47655565463674, 0.6688541789656035, 0.5835315806337462]
+[0.3189002670356355, 4.703608438304262, 46, 204, 84.88964463636522, 0.2690018577564054, 0.7969703457512548]
+[0.11998305680032509, 0.8456912926199374, 38, 187, 12.31549048613636, 0.7966323825812175, 0.5413272623265163]
+[0.5876864835491258, 0.09352530490633727, 9, 11, 73.3379187247176, 0.7341787440205653, 0.7650603634913912]
+[0.5032886279319936, 3.7637342021806894, 4, 294, 63.24376395899425, 0.5256163488448377, 0.6480270916860477]
+[0.719122120352213, 4.998246427698394, 31, 168, 19.843336059620498, 0.5997825579816004, 0.6057053845853317]
+[0.9856059467052998, 3.8946714054066165, 18, 251, 37.80718639916708, 0.36273140689445493, 0.7844280839882345]
+[0.4509580772287871, 3.3045127516519712, 37, 244, 19.717309551715214, 0.5511989467904621, 0.553426635491594]
+[0.5088257220958171, 1.8708208866569511, 22, 87, 78.04679113190686, 0.31170358472799187, 0.40987182640144093]
+[0.11179870245176352, 1.220196808633893, 44, 10, 26.613392132582895, 0.33063213534729813, 0.21476029551131395]
+[0.010956366088989868, 4.0094746173289, 26, 127, 7.485085294942455, 0.7776249951415164, 0.15980711954394247]
+[0.12249386883528648, 0.4633368475889827, 21, 206, 35.2006894521788, 0.4771963127502816, 0.46124274136090915]
+[0.681102285056894, 3.2714606260232837, 16, 240, 49.21593569930053, 0.2649242284932417, 0.5406100536567847]
+[0.5890407511686497, 2.726431319844538, 38, 87, 42.41428376028942, 0.1754698483327019, 0.6154489620843505]
+[0.9542201551221411, 3.4153393684370847, 19, 7, 59.020040655509064, 0.6889829024720617, 0.4766819952634753]
+[0.2534532643132356, 2.6938904900868064, 29, 74, 90.60057646494771, 0.19593077437003814, 0.24944198623707894]
+[0.6831976451105839, 4.35992403886111, 50, 186, 47.41068829828526, 0.5825659221651598, 0.44193723851159905]
+[0.9367862723296588, 1.497134910492621, 50, 146, 26.932753103295855, 0.12175893659887761, 0.4251625263668718]
+[0.2565963232397263, 2.025792317074175, 37, 226, 9.46056590169735, 0.2006610890423738, 0.6724546065784309]
+[  -2.32209404   -4.61888321   -2.27739946   -3.89957825   -2.82983987
+   -5.63884862 -522.33290609   -2.84432125  -20.16671117   -3.87303392
+   -2.37332364   -2.60853545   -4.69441549   -2.59386714   -3.21041719
+   -3.19185321   -3.28247817   -3.2601788    -7.15843137   -2.18290031
+   -6.99706952   -2.27692286   -3.4360981    -3.00194995   -4.58476098
+   -4.58120545   -3.81221032   -3.0805072    -3.58233762 -335.89054362
+   -4.4214944    -4.0348413    -2.97257845   -5.58616908   -3.13487816
+   -2.57632546   -3.13045025   -4.3253541    -2.90200321   -5.5497783
+   -5.18295034   -5.76530345   -2.98576736   -2.63569752   -6.05022653
+   -4.67884127   -3.13304647   -4.16197117   -6.69788472   -2.3648423
+   -2.69897978   -2.52491271   -3.07802049  -82.9483134    -2.32887801
+   -3.63929073   -2.22765446   -2.24620064   -2.35010489   -3.26930547
+   -2.63277785   -2.2624894    -3.98408      -3.33110094   -5.44139051
+   -5.63275274   -3.83006605   -2.87641883   -3.11606884   -2.29886027
+   -2.6109647    -4.69153794   -2.62413232   -3.97423689   -2.56656802
+   -4.82538954   -4.36848124   -7.02727763   -2.26537669   -2.50805302
+   -2.84740551   -5.20127726   -2.53557913   -2.51618961   -2.64189172
+   -2.73862235   -4.27091416   -4.978851     -3.42490872   -3.28956485
+   -2.48857419   -2.2050759    -2.32643096   -4.17937175   -3.3913552
+   -3.16429257   -2.31598441   -5.45309798  -19.26808802   -2.51872158]
+[ 6 29 53  8 98 18 77 20 48 44 41  5 65 33 39 97 64 81 40 87 75 12 71 45
+  1 24 25 30 76 37 86 93 47 31 62 73  3  9 66 26 55 28 22 88 94 63 89 16
+ 59 17 14 15 95 34 46 36 68 27 52 23 42 32 38 67 80  7  4 85 50 84 43 60
+ 72 70 11 13 35 74 82 51 99 83 79 90 10 49 58 54 92  0 96 69  2 21 78 61
+ 57 56 91 19]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 114, in __getattr__
+    return self[name]
+KeyError: 'fun_vals'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "optimizer.py", line 97, in <module>
+    print(j.fun_vals[idx])
+  File "/home/ec2-user/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py", line 116, in __getattr__
+    raise AttributeError(name)
+AttributeError: fun_vals
+[ec2-user@ip-172-31-6-133 SalesPredicton]$

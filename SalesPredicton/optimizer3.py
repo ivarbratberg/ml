@@ -15,11 +15,11 @@ from xgboost import XGBRegressor
 import sys
 
 def bayesian(X,Y):
-    bds = [{'name': 'learning_rate', 'type': 'continuous', 'domain': (0, 1)},
-            {'name': 'gamma', 'type': 'continuous', 'domain': (0, 5)},
+    bds = [{'name': 'learning_rate', 'type': 'continuous', 'domain': (0.0, 1.0)},
+            {'name': 'gamma', 'type': 'continuous', 'domain': (0.0, 5.0)},
             {'name': 'max_depth', 'type': 'discrete', 'domain': (1, 50)},
             {'name': 'n_estimators', 'type': 'discrete', 'domain': (1, 300)},
-            {'name': 'min_child_weight', 'type': 'continuous', 'domain': (1, 100)},
+            {'name': 'min_child_weight', 'type': 'continuous', 'domain': (1.0, 100.)},
             {'name': 'colsample_bytree', 'type': 'continuous', 'domain': (0.1, 0.8)},
             {'name': 'subsample', 'type': 'continuous', 'domain': (0.1, 0.8)}  
             ]
@@ -29,6 +29,20 @@ def bayesian(X,Y):
     m52 = ConstantKernel(1.0) * Matern(length_scale=1.0, nu=2.5)
     gpr = GaussianProcessRegressor(kernel=m52, alpha=noise**2)
         
+    def XGBRegressorFake(learning_rate,
+                                gamma,
+                                max_depth,
+                                n_estimators,
+                                min_child_weight,
+                                colsample_bytree,
+                                subsample):
+        # print("hei")
+        return learning_rate**2
+
+
+    def cv_score_fake(parameters):
+        # parameters = parameters[0]
+        return (parameters[0]-0.5)**2
 
     # Optimization objective
     def cv_score(parameters):
@@ -54,8 +68,11 @@ def bayesian(X,Y):
     #                                 maximize=True)
 
     # On|ly 20 iterations because we have 5 initial random points
+    boundaries_of_parameters=list(map(lambda x:x['domain'],bds))
+    print(boundaries_of_parameters)
+    # sys.exit()
     opti_obj = gp_minimize(lambda x: cv_score(x), 
-                        map(lambda x:x['domain'],bds),
+                        boundaries_of_parameters,
                         base_estimator=gpr,
                         acq_func='EI',      # expected improvement
                         xi=0.01,            # exploitation-exploration trade-off
