@@ -1,3 +1,4 @@
+*.pyc
 .vscode
 .pytest_cache
 *.pyx
@@ -20,7 +21,6 @@ SalesPredicton/y4
 SalesPredicton/y5
 SalesPredicton/y5.csv
 SalesPredicton/ytest.csv
-SalesPredicton/csv_to_submit.csv
-SalesPredicton/csv_to_submit.csv
-SalesPredicton/csv_to_submit.csv
+.vscode
+SalesPredicton/__pycache__/merge_test.cpython-36-PYTEST.pyc
 SalesPredicton/csv_to_submit.csv

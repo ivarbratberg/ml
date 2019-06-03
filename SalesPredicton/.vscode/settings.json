@@ -1,4 +1,6 @@
 {
-    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
-    "python.jediEnabled": false
+    "python.pythonPath": "C:\\Users\\ibratberg\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=1ebbc4915a88f932f592cc46454ba804f8f038caecfb441c"
 }

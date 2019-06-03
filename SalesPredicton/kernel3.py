@@ -19,6 +19,7 @@ import os
 import pickle
 import h5py
 import sys
+import pdb
 
 global now 
 now= time.time()
@@ -47,7 +48,7 @@ for month in w5['date_block_num'].drop_duplicates():
 cols = ['shop_id','item_id','date_block_num']   
 grid = pd.DataFrame(np.vstack(grid), columns = cols, dtype=np.int32)    
 w5 = pd.merge(grid,w5, on = cols, how = 'left').fillna(0)    
-
+pdb.set_trace()
 print("Starting storing the file")
 
 print(w5.dtypes)
